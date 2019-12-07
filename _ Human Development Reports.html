@@ -1,0 +1,4243 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://hdr.undp.org/en/composite/HDI -->
+<html lang="en" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+<script type="text/javascript" src="./_ Human Development Reports_files/fe270b12c8"></script><script src="./_ Human Development Reports_files/nr-1153.min.js.descarga"></script><script type="text/javascript" async="" src="./_ Human Development Reports_files/ga.js.descarga"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"fe270b12c8",applicationID:"3267662"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1153.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="http://hdr.undp.org/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)">
+<link rel="canonical" href="http://hdr.undp.org/en/composite/HDI">
+<link rel="shortlink" href="http://hdr.undp.org/en/composite/HDI">
+<title>| Human Development Reports</title>
+<link type="text/css" rel="stylesheet" href="./_ Human Development Reports_files/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all">
+<link type="text/css" rel="stylesheet" href="./_ Human Development Reports_files/css_cw4bnvRT32hUwV7sG1paGMXRZeTG6Wlq2d4j9aqT4vA.css" media="all">
+<link type="text/css" rel="stylesheet" href="./_ Human Development Reports_files/css_wiEark-na7nLYWz8yOUWMgnUYyMx6YB97pq4JZDd25o.css" media="all">
+<link type="text/css" rel="stylesheet" href="./_ Human Development Reports_files/css_WqBH9gIw8L1FPIKC3Il6wsg_hhfmZBgtkZ2EeLnzq30.css" media="all">
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="http://hdr.undp.org/sites/default/files/css/css_zwAkQee5UJB06pSx8DCJrpDsUbATWg00tbIIrXwTJtw.css" media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="http://hdr.undp.org/sites/default/files/css/css_p3GYPA1rignzTqzEQJVBiaJXx427RwKyd22GucfDJFQ.css" media="all" />
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<script src="./_ Human Development Reports_files/js_LnrvvEZf0Xq4ScXn-_QNXUuLidFRTLJyE9mhdSzUkcc.js.descarga"></script>
+<script src="./_ Human Development Reports_files/js_tG5pNElF7jdZyW0ucRa0HM83XPmzKI51mC1EJoW5BK0.js.descarga"></script>
+<script src="./_ Human Development Reports_files/js_nEVftQ6eCRuhUmSGPgRCoty8dtmLxlAWc2CokSJCYXo.js.descarga"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-24131528-15"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script></script>
+<script src="./_ Human Development Reports_files/js_9-oyZMdeTwuOtWJkYVx8B4NczrD3Yg_29E5qn2rVWTc.js.descarga"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"hdr_theme","theme_token":"sjRA4lM7BDQNVQU5EYBMrxbtUZA0mK3GSaxpc3zDONE","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/contentanalysis\/contentanalysis.js":1,"sites\/all\/modules\/contrib\/contentoptimizer\/contentoptimizer.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"modules\/colorbox\/js\/colorbox.js":1,"modules\/colorbox\/styles\/default\/colorbox_style.js":1,"modules\/colorbox\/js\/colorbox_load.js":1,"modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/custom\/hdr_util\/js\/hdr_util.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"sites\/all\/themes\/hdr_theme\/js\/respond.min.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-affix.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-alert.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-button.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-carousel.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-collapse.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-dropdown.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-modal.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-tooltip.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-popover.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-scrollspy.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-transition.js":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/js\/bootstrap-typeahead.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"modules\/locale\/locale.css":1,"sites\/all\/themes\/hdr_theme\/less\/style.less":1,"sites\/all\/themes\/hdr_theme\/bootstrap\/css\/bootstrap-responsive.css":1,"sites\/all\/themes\/hdr_theme\/less\/ie8.less":1,"sites\/all\/themes\/hdr_theme\/less\/ie7.less":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"intel":{"script_domain":"http:\/\/hdr.undp.org\/","module_path":"sites\/all\/modules\/contrib\/intel","system_path":"composite\/HDI","page_title":"","track_analytics":0,"track_adhoc_ctas":"track-cta","track_adhoc_events":"track-event","track_forms":1,"is_landingpage":0,"pushes":[],"scorings":{"disqus_comment":10,"addthis_social_share":5,"addthis_social_share_clickback":0}},"disqus":{"callback_onnewcomment":"l10iDisqus.trackComment"},"urlIsAjaxTrusted":{"\/en\/composite\/HDI":true}});</script>
+<style type="text/css" media="print">.tableFloatingHeader{display:none !important;}.tableFloatingHeaderOriginal{position:static !important;}</style></head>
+<body class="html not-front not-logged-in no-sidebars page-composite page-composite-hdi i18n-en" style="">
+<div id="skip-link">
+<a href="http://hdr.undp.org/en/composite/HDI#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="navbar" role="banner" class="navbar navbar-static-top">
+<div class="navbar-inner">
+<div class="container">
+<div class="container-inner">
+<div id="top-header">
+<div class="region region-top-header">
+<section id="block-search-form" class="block block-search clearfix">
+<form class="form-search content-search" action="http://hdr.undp.org/en/composite/HDI" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="input-append"><input title="Enter the terms you wish to search for." class="search-query span2 form-text" placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128"><button type="submit" class="btn"><i class="icon-search"></i><span class="element-invisible">Search</span></button></div><button class="element-invisible btn btn-primary form-submit" id="edit-submit--2" name="op" value="Search" type="submit">Search</button>
+<input type="hidden" name="form_build_id" value="form-RGE22nxUJwfBL_ALfTI9W25Gk7gEBbM7HedA31xvpLs">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form>
+</section> 
+<section id="block-locale-language" class="block block-locale clearfix">
+<ul class="language-switcher-locale-url"><li class="en first last active"><a href="http://hdr.undp.org/en/composite/HDI" class="language-link active" xml:lang="en">English</a></li>
+</ul>
+</section> 
+</div>
+</div>
+<a class="logo" href="http://hdr.undp.org/en" title="Home">
+<img src="./_ Human Development Reports_files/logo.png" alt="Home">
+</a>
+<div id="branding">
+<p class="lead">United Nations Development Programme</p>
+<h1 id="site-name">
+<a href="http://hdr.undp.org/en" title="Home" class="brand">Human Development Reports</a>
+</h1>
+</div>
+</div>
+</div>
+
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<div class="nav-collapse collapse">
+<nav role="navigation">
+<div class="region region-navigation">
+<section id="block-menu-block-2" class="block block-menu-block clearfix">
+<div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+<ul class="menu nav"><li class="first leaf menu-mlid-718"><a href="http://hdr.undp.org/en/home">Home</a></li>
+<li class="leaf menu-mlid-1903"><a href="http://hdr.undp.org/en/towards-hdr-2019">Towards HDR 2019</a></li>
+<li class="leaf has-children menu-mlid-1094"><a href="http://hdr.undp.org/en/2018-update">2018 Statistical Update</a></li>
+<li class="leaf has-children menu-mlid-711"><a href="http://hdr.undp.org/en/data">Data</a></li>
+<li class="leaf menu-mlid-720"><a href="http://hdr.undp.org/en/countries">Country Profiles</a></li>
+<li class="leaf menu-mlid-617"><a href="http://hdr.undp.org/en/blog">Blog</a></li>
+<li class="leaf menu-mlid-1736"><a href="http://hdr.undp.org/en/news">News</a></li>
+<li class="leaf has-children menu-mlid-825"><a href="http://hdr.undp.org/en/global-reports">Publications</a></li>
+<li class="last leaf has-children menu-mlid-847"><a href="http://hdr.undp.org/en/humandev" title="About Human Development">About</a></li>
+</ul></div>
+</section> 
+</div>
+</nav>
+</div>
+</div>
+</header>
+<div class="main-container container">
+<header role="banner" id="page-header">
+</header> 
+<div class="row-fluid">
+<section class="span12 trail-1-5">
+<a id="main-content"></a>
+<div class="panel-display panel-1col clearfix">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-custom pane-1">
+<div class="pane-content">
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+.mid {
+text-align: center;
+}
+.footnote {
+font-size: 12px;
+}
+.page-composite tr th{
+text-align:left;
+font-weight:normal !important;
+border:1px solid #ddd;
+height:25px;
+padding-left:5px;
+width: 200px;
+}
+.page-composite td{
+border:1px solid #ddd;
+height:25px;
+padding-left:5px;
+}
+.page-composite td{
+font-family: Arial, sans-serif;
+font-size: 12px;
+}
+.page-composite tr.row-odd{
+background: #eee;
+}
+.footnote, .footnote a{
+color:steelblue;
+font-size:10px;
+}
+thead{
+background:#fff;
+font-size:12px;
+}
+th.nostyle{
+border:0px !important;
+}
+
+tr
+{mso-height-source:auto;}
+col
+{mso-width-source:auto;}
+br
+{mso-data-placement:same-cell;}
+.style0
+{mso-style-name:Normal;
+mso-style-id:0;}
+.font5
+{color:windowtext;
+font-size:11.0pt;
+font-weight:700;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.font7
+{color:windowtext;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.font16
+{color:windowtext;
+font-size:11.0pt;
+font-weight:400;
+font-style:italic;
+text-decoration:none;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.font17
+{color:#003366;
+font-size:11.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+td
+{mso-style-parent:style0;
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+mso-ignore:padding;
+color:windowtext;
+font-size:10.0pt;
+font-weight:400;
+font-style:normal;
+text-decoration:none;
+font-family:Arial;
+mso-generic-font-family:auto;
+mso-font-charset:0;
+mso-number-format:General;
+text-align:general;
+vertical-align:bottom;
+border:none;
+mso-background-source:auto;
+mso-pattern:auto;
+mso-protection:locked visible;
+white-space:nowrap;
+mso-rotate:0;}
+.xl71
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.xl72
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.xl73
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#\#\,\#\#0\.000";
+text-align:center;}
+.xl74
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#\#\,\#\#0\.0";
+text-align:center;}
+.xl75
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+mso-number-format:"\#\,\#\#\#\,\#\#0";
+text-align:center;}
+.xl76
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;}
+.xl77
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-weight:700;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.xl78
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-weight:700;
+font-family:"Arial Bold";
+mso-generic-font-family:auto;
+mso-font-charset:0;
+text-align:center;
+border-top:none;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:none;
+white-space:normal;}
+.xl79
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-weight:700;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;}
+.xl80
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-weight:700;
+font-family:"Arial Bold";
+mso-generic-font-family:auto;
+mso-font-charset:0;
+text-align:center;
+white-space:normal;}
+.xl81
+{mso-style-parent:style0;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;
+border-top:.5pt solid windowtext;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:none;}
+.xl82
+{mso-style-parent:style0;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;}
+.xl83
+{mso-style-parent:style0;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;
+border-top:.5pt solid windowtext;
+border-right:none;
+border-bottom:.5pt solid windowtext;
+border-left:none;
+white-space:normal;}
+.xl84
+{mso-style-parent:style0;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.xl85
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:"Arial Bold";
+mso-generic-font-family:auto;
+mso-font-charset:0;
+text-align:center;
+white-space:normal;}
+.xl86
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;}
+.xl87
+{mso-style-parent:style0;
+font-family:Arial, sans-serif;
+mso-font-charset:0;}
+.xl88
+{mso-style-parent:style0;
+white-space:normal;}
+.xl89
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+white-space:normal;}
+.xl90
+{mso-style-parent:style0;
+font-size:11.0pt;
+font-weight:700;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+vertical-align:middle;}
+.xl91
+{mso-style-parent:style0;
+font-weight:700;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:center;}
+.xl92
+{mso-style-parent:style0;
+color:white;
+font-size:11.0pt;
+font-weight:700;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+text-align:left;
+background:#333399;
+mso-pattern:black none;}
+.xl93
+{mso-style-parent:style0;
+color:white;
+font-size:11.0pt;
+font-weight:700;
+font-family:Arial, sans-serif;
+mso-font-charset:0;
+background:#333399;
+mso-pattern:black none;}
+
+
+/*--><!]]>*/
+</style><div class="country-profile-action-links">
+<ul><li><a href="http://hdr.undp.org/sites/default/files/composite_tables/2018_Statistical_Annex_Table_1.xlsx"><span class="sicon sicon-download"></span><span class="button-text">Download Data</span></a></li>
+<li style="display:none"><a href="http://hdr.undp.org/en/composite/HDI#"><span class="sicon sicon-print"></span><span class="button-text">Print</span></a></li>
+<li style="display:none"><a href="http://hdr.undp.org/en/composite/HDI#"><span class="sicon sicon-share"></span><span class="button-text">Share</span></a></li>
+</ul></div>
+<p>&nbsp;</p>
+<h1 class="page-header">Table 1. Human Development Index and its components
+</h1><p><a href="http://hdr.undp.org/content/human-development-index-hdi">Read the full explanation of the Human Development Index (HDI)</a></p>
+<p><a href="http://hdr.undp.org/en/faq-page/human-development-index-hdi">View the HDI Frequently asked questions</a></p>
+<br><p> </p><table border="0" cellpadding="0" cellspacing="0" width="2268" style="table-layout: fixed; width: 1705pt; padding: 0px;"><thead class="tableFloatingHeaderOriginal"><tr><td height="20" width="64" style="height:15.0pt;width:48pt"></td>
+<td class="xl77" colspan="1" width="521" style="mso-ignore:colspan;width:392pt">Table 1. Human Development Index and its components</td>
+<td width="144" style="width:108pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="144" style="width:108pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="145" style="width:109pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="143" style="width:107pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="143" style="width:107pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="64" style="width:48pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="64" style="width:48pt"></td>
+<td width="14" style="width:11pt"></td>
+</tr><tr class="xl91" height="17" style="height:12.75pt"><td height="17" class="xl91" style="height:12.75pt"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91">SDG 3</td>
+<td class="xl91"></td>
+<td class="xl91">SDG 4.3</td>
+<td class="xl91"></td>
+<td class="xl91">SDG 4.6</td>
+<td class="xl91"></td>
+<td class="xl91">SDG 8.5</td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+</tr><tr height="66" style="mso-height-source:userset;height:50.1pt"><td height="66" style="height:50.1pt"></td>
+<td></td>
+<td class="xl78" width="142" style="width:107pt">Human Development Index<br>
+(HDI)</td>
+<td></td>
+<td class="xl78" width="141" style="width:106pt">Life expectancy at birth</td>
+<td></td>
+<td class="xl78" width="144" style="width:108pt">Expected years of schooling</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl78" width="145" style="width:109pt">Mean years of schooling</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl78" width="143" style="width:107pt">Gross national income (GNI) per<br>
+capita</td>
+<td></td>
+<td class="xl78" width="143" style="width:107pt">GNI per capita rank minus HDI<br>
+rank</td>
+<td></td>
+<td class="xl78" width="64" style="width:48pt">HDI rank</td>
+<td></td>
+</tr><tr height="20" style="height:15.0pt"><td height="20" class="xl79" style="height:15.0pt">HDI rank</td>
+<td class="xl80" width="224" style="width:168pt">Country</td>
+<td class="xl81" style="border-top:none">Value</td>
+<td class="xl82"></td>
+<td class="xl83" width="141" style="border-top:none;width:106pt">(years)</td>
+<td class="xl82"></td>
+<td class="xl83" width="144" style="border-top:none;width:108pt">(years)</td>
+<td class="xl82"></td>
+<td class="xl83" width="145" style="border-top:none;width:109pt">(years)</td>
+<td class="xl82"></td>
+<td class="xl83" width="143" style="border-top:none;width:107pt">(2011 PPP $)</td>
+<td class="xl82"></td>
+<td class="xl82"></td>
+<td class="xl84"></td>
+<td class="xl85" width="64" style="width:48pt"></td>
+<td></td>
+</tr><tr height="23" style="height:17.25pt"><td height="23" class="xl79" style="height:17.25pt"></td>
+<td class="xl80" width="224" style="width:168pt"></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2017</td>
+<td class="xl86"><sup><a href="http://hdr.undp.org/en/composite/HDI#a">a</a></sup></td>
+<td class="xl76">2017</td>
+<td class="xl86"><sup><a href="http://hdr.undp.org/en/composite/HDI#a">a</a></sup></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2016</td>
+<td></td>
+</tr>
+</thead><thead class="tableFloatingHeader" style="display: none; opacity: 0;"><tr><td height="20" width="64" style="height:15.0pt;width:48pt"></td>
+<td class="xl77" colspan="1" width="521" style="mso-ignore:colspan;width:392pt">Table 1. Human Development Index and its components</td>
+<td width="144" style="width:108pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="144" style="width:108pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="145" style="width:109pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="143" style="width:107pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="143" style="width:107pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="64" style="width:48pt"></td>
+<td width="14" style="width:11pt"></td>
+<td width="64" style="width:48pt"></td>
+<td width="14" style="width:11pt"></td>
+</tr><tr class="xl91" height="17" style="height:12.75pt"><td height="17" class="xl91" style="height:12.75pt"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91">SDG 3</td>
+<td class="xl91"></td>
+<td class="xl91">SDG 4.3</td>
+<td class="xl91"></td>
+<td class="xl91">SDG 4.6</td>
+<td class="xl91"></td>
+<td class="xl91">SDG 8.5</td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+<td class="xl91"></td>
+</tr><tr height="66" style="mso-height-source:userset;height:50.1pt"><td height="66" style="height:50.1pt"></td>
+<td></td>
+<td class="xl78" width="142" style="width:107pt">Human Development Index<br>
+(HDI)</td>
+<td></td>
+<td class="xl78" width="141" style="width:106pt">Life expectancy at birth</td>
+<td></td>
+<td class="xl78" width="144" style="width:108pt">Expected years of schooling</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl78" width="145" style="width:109pt">Mean years of schooling</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl78" width="143" style="width:107pt">Gross national income (GNI) per<br>
+capita</td>
+<td></td>
+<td class="xl78" width="143" style="width:107pt">GNI per capita rank minus HDI<br>
+rank</td>
+<td></td>
+<td class="xl78" width="64" style="width:48pt">HDI rank</td>
+<td></td>
+</tr><tr height="20" style="height:15.0pt"><td height="20" class="xl79" style="height:15.0pt">HDI rank</td>
+<td class="xl80" width="224" style="width:168pt">Country</td>
+<td class="xl81" style="border-top:none">Value</td>
+<td class="xl82"></td>
+<td class="xl83" width="141" style="border-top:none;width:106pt">(years)</td>
+<td class="xl82"></td>
+<td class="xl83" width="144" style="border-top:none;width:108pt">(years)</td>
+<td class="xl82"></td>
+<td class="xl83" width="145" style="border-top:none;width:109pt">(years)</td>
+<td class="xl82"></td>
+<td class="xl83" width="143" style="border-top:none;width:107pt">(2011 PPP $)</td>
+<td class="xl82"></td>
+<td class="xl82"></td>
+<td class="xl84"></td>
+<td class="xl85" width="64" style="width:48pt"></td>
+<td></td>
+</tr><tr height="23" style="height:17.25pt"><td height="23" class="xl79" style="height:17.25pt"></td>
+<td class="xl80" width="224" style="width:168pt"></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2017</td>
+<td class="xl86"><sup><a href="http://hdr.undp.org/en/composite/HDI#a">a</a></sup></td>
+<td class="xl76">2017</td>
+<td class="xl86"><sup><a href="http://hdr.undp.org/en/composite/HDI#a">a</a></sup></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2017</td>
+<td class="xl76"></td>
+<td class="xl76">2016</td>
+<td></td>
+</tr>
+</thead><tbody><tr height="20" style="height:15.0pt" class="row-even"><td height="20" style="height:15.0pt"></td>
+<td colspan="15" class="xl92">VERY HIGH HUMAN DEVELOPMENT</td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">1</td>
+<td class="xl72">Norway</td>
+<td class="xl73">0.953</td>
+<td></td>
+<td class="xl74">82.3</td>
+<td></td>
+<td class="xl74">17.9</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td></td>
+<td class="xl75">68,012</td>
+<td></td>
+<td class="xl75">5</td>
+<td></td>
+<td class="xl75">1</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">2</td>
+<td class="xl72">Switzerland</td>
+<td class="xl73">0.944</td>
+<td></td>
+<td class="xl74">83.5</td>
+<td></td>
+<td class="xl74">16.2</td>
+<td></td>
+<td class="xl74">13.4</td>
+<td></td>
+<td class="xl75">57,625</td>
+<td></td>
+<td class="xl75">8</td>
+<td></td>
+<td class="xl75">2</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">3</td>
+<td class="xl72">Australia</td>
+<td class="xl73">0.939</td>
+<td></td>
+<td class="xl74">83.1</td>
+<td></td>
+<td class="xl74">22.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#b">b</a></sup></td>
+<td class="xl74">12.9</td>
+<td></td>
+<td class="xl75">43,560</td>
+<td></td>
+<td class="xl75">18</td>
+<td></td>
+<td class="xl75">3</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">4</td>
+<td class="xl72">Ireland</td>
+<td class="xl73">0.938</td>
+<td></td>
+<td class="xl74">81.6</td>
+<td></td>
+<td class="xl74">19.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#b">b</a></sup></td>
+<td class="xl74">12.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#c">c</a></sup></td>
+<td class="xl75">53,754</td>
+<td></td>
+<td class="xl75">8</td>
+<td></td>
+<td class="xl75">4</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">5</td>
+<td class="xl72">Germany</td>
+<td class="xl73">0.936</td>
+<td></td>
+<td class="xl74">81.2</td>
+<td></td>
+<td class="xl74">17.0</td>
+<td></td>
+<td class="xl74">14.1</td>
+<td></td>
+<td class="xl75">46,136</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">4</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">6</td>
+<td class="xl72">Iceland</td>
+<td class="xl73">0.935</td>
+<td></td>
+<td class="xl74">82.9</td>
+<td></td>
+<td class="xl74">19.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#b">b</a></sup></td>
+<td class="xl74">12.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#c">c</a></sup></td>
+<td class="xl75">45,810</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">6</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">7</td>
+<td class="xl72">Hong Kong, China (SAR)</td>
+<td class="xl73">0.933</td>
+<td></td>
+<td class="xl74">84.1</td>
+<td></td>
+<td class="xl74">16.3</td>
+<td></td>
+<td class="xl74">12.0</td>
+<td></td>
+<td class="xl75">58,420</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">8</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">7</td>
+<td class="xl72">Sweden</td>
+<td class="xl73">0.933</td>
+<td></td>
+<td class="xl74">82.6</td>
+<td></td>
+<td class="xl74">17.6</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl74">12.4</td>
+<td></td>
+<td class="xl75">47,766</td>
+<td></td>
+<td class="xl75">9</td>
+<td></td>
+<td class="xl75">7</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">9</td>
+<td class="xl72">Singapore</td>
+<td class="xl73">0.932</td>
+<td></td>
+<td class="xl74">83.2</td>
+<td></td>
+<td class="xl74">16.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl74">11.5</td>
+<td></td>
+<td class="xl75">82,503</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#e">e</a></sup></td>
+<td class="xl75">-6</td>
+<td></td>
+<td class="xl75">8</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">10</td>
+<td class="xl72">Netherlands</td>
+<td class="xl73">0.931</td>
+<td></td>
+<td class="xl74">82.0</td>
+<td></td>
+<td class="xl74">18.0</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl74">12.2</td>
+<td></td>
+<td class="xl75">47,900</td>
+<td></td>
+<td class="xl75">5</td>
+<td></td>
+<td class="xl75">10</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">11</td>
+<td class="xl72">Denmark</td>
+<td class="xl73">0.929</td>
+<td></td>
+<td class="xl74">80.9</td>
+<td></td>
+<td class="xl74">19.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#b">b</a></sup></td>
+<td class="xl74">12.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">47,918</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">10</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">12</td>
+<td class="xl72">Canada</td>
+<td class="xl73">0.926</td>
+<td></td>
+<td class="xl74">82.5</td>
+<td></td>
+<td class="xl74">16.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#c">c</a></sup></td>
+<td class="xl74">13.3</td>
+<td></td>
+<td class="xl75">43,433</td>
+<td></td>
+<td class="xl75">10</td>
+<td></td>
+<td class="xl75">12</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">13</td>
+<td class="xl72">United States</td>
+<td class="xl73">0.924</td>
+<td></td>
+<td class="xl74">79.5</td>
+<td></td>
+<td class="xl74">16.5</td>
+<td></td>
+<td class="xl74">13.4</td>
+<td></td>
+<td class="xl75">54,941</td>
+<td></td>
+<td class="xl75">-2</td>
+<td></td>
+<td class="xl75">12</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">14</td>
+<td class="xl72">United Kingdom</td>
+<td class="xl73">0.922</td>
+<td></td>
+<td class="xl74">81.7</td>
+<td></td>
+<td class="xl74">17.4</td>
+<td></td>
+<td class="xl74">12.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">39,116</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">14</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">15</td>
+<td class="xl72">Finland</td>
+<td class="xl73">0.920</td>
+<td></td>
+<td class="xl74">81.5</td>
+<td></td>
+<td class="xl74">17.6</td>
+<td class="xl71"><sup></sup></td>
+<td class="xl74">12.4</td>
+<td></td>
+<td class="xl75">41,002</td>
+<td></td>
+<td class="xl75">10</td>
+<td></td>
+<td class="xl75">15</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">16</td>
+<td class="xl72">New Zealand</td>
+<td class="xl73">0.917</td>
+<td></td>
+<td class="xl74">82.0</td>
+<td></td>
+<td class="xl74">18.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#b">b</a></sup></td>
+<td class="xl74">12.5</td>
+<td></td>
+<td class="xl75">33,970</td>
+<td></td>
+<td class="xl75">18</td>
+<td></td>
+<td class="xl75">16</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">17</td>
+<td class="xl72">Belgium</td>
+<td class="xl73">0.916</td>
+<td></td>
+<td class="xl74">81.3</td>
+<td></td>
+<td class="xl74">19.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#b">b</a></sup></td>
+<td class="xl74">11.8</td>
+<td></td>
+<td class="xl75">42,156</td>
+<td></td>
+<td class="xl75">6</td>
+<td></td>
+<td class="xl75">16</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">17</td>
+<td class="xl72">Liechtenstein</td>
+<td class="xl73">0.916</td>
+<td></td>
+<td class="xl74">80.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#g">g</a></sup></td>
+<td class="xl74">14.7</td>
+<td></td>
+<td class="xl74">12.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#h">h</a></sup></td>
+<td class="xl75">97,336</td>
+<td class="xl71"><sup>e,i</sup></td>
+<td class="xl75">-15</td>
+<td></td>
+<td class="xl75">16</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">19</td>
+<td class="xl72">Japan</td>
+<td class="xl73">0.909</td>
+<td></td>
+<td class="xl74">83.9</td>
+<td></td>
+<td class="xl74">15.2</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">38,986</td>
+<td></td>
+<td class="xl75">9</td>
+<td></td>
+<td class="xl75">19</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">20</td>
+<td class="xl72">Austria</td>
+<td class="xl73">0.908</td>
+<td></td>
+<td class="xl74">81.8</td>
+<td></td>
+<td class="xl74">16.1</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td></td>
+<td class="xl75">45,415</td>
+<td></td>
+<td class="xl75">0</td>
+<td></td>
+<td class="xl75">20</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">21</td>
+<td class="xl72">Luxembourg</td>
+<td class="xl73">0.904</td>
+<td></td>
+<td class="xl74">82.0</td>
+<td></td>
+<td class="xl74">14.0</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">65,016</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-13</td>
+<td></td>
+<td class="xl75">26</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">22</td>
+<td class="xl72">Israel</td>
+<td class="xl73">0.903</td>
+<td></td>
+<td class="xl74">82.7</td>
+<td></td>
+<td class="xl74">15.9</td>
+<td></td>
+<td class="xl74">13.0</td>
+<td></td>
+<td class="xl75">32,711</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">21</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">22</td>
+<td class="xl72">Korea (Republic of)</td>
+<td class="xl73">0.903</td>
+<td></td>
+<td class="xl74">82.4</td>
+<td></td>
+<td class="xl74">16.5</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td></td>
+<td class="xl75">35,945</td>
+<td></td>
+<td class="xl75">8</td>
+<td></td>
+<td class="xl75">22</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">24</td>
+<td class="xl72">France</td>
+<td class="xl73">0.901</td>
+<td></td>
+<td class="xl74">82.7</td>
+<td></td>
+<td class="xl74">16.4</td>
+<td></td>
+<td class="xl74">11.5</td>
+<td></td>
+<td class="xl75">39,254</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">23</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">25</td>
+<td class="xl72">Slovenia</td>
+<td class="xl73">0.896</td>
+<td></td>
+<td class="xl74">81.1</td>
+<td></td>
+<td class="xl74">17.2</td>
+<td></td>
+<td class="xl74">12.2</td>
+<td></td>
+<td class="xl75">30,594</td>
+<td></td>
+<td class="xl75">12</td>
+<td></td>
+<td class="xl75">24</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">26</td>
+<td class="xl72">Spain</td>
+<td class="xl73">0.891</td>
+<td></td>
+<td class="xl74">83.3</td>
+<td></td>
+<td class="xl74">17.9</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td></td>
+<td class="xl75">34,258</td>
+<td></td>
+<td class="xl75">7</td>
+<td></td>
+<td class="xl75">25</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">27</td>
+<td class="xl72">Czechia</td>
+<td class="xl73">0.888</td>
+<td></td>
+<td class="xl74">78.9</td>
+<td></td>
+<td class="xl74">16.9</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td></td>
+<td class="xl75">30,588</td>
+<td></td>
+<td class="xl75">11</td>
+<td></td>
+<td class="xl75">27</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">28</td>
+<td class="xl72">Italy</td>
+<td class="xl73">0.880</td>
+<td></td>
+<td class="xl74">83.2</td>
+<td></td>
+<td class="xl74">16.3</td>
+<td></td>
+<td class="xl74">10.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">35,299</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">28</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">29</td>
+<td class="xl72">Malta</td>
+<td class="xl73">0.878</td>
+<td></td>
+<td class="xl74">81.0</td>
+<td></td>
+<td class="xl74">15.9</td>
+<td></td>
+<td class="xl74">11.3</td>
+<td></td>
+<td class="xl75">34,396</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">29</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">30</td>
+<td class="xl72">Estonia</td>
+<td class="xl73">0.871</td>
+<td></td>
+<td class="xl74">77.7</td>
+<td></td>
+<td class="xl74">16.1</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td></td>
+<td class="xl75">28,993</td>
+<td></td>
+<td class="xl75">10</td>
+<td></td>
+<td class="xl75">30</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">31</td>
+<td class="xl72">Greece</td>
+<td class="xl73">0.870</td>
+<td></td>
+<td class="xl74">81.4</td>
+<td></td>
+<td class="xl74">17.3</td>
+<td></td>
+<td class="xl74">10.8</td>
+<td></td>
+<td class="xl75">24,648</td>
+<td></td>
+<td class="xl75">20</td>
+<td></td>
+<td class="xl75">30</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">32</td>
+<td class="xl72">Cyprus</td>
+<td class="xl73">0.869</td>
+<td></td>
+<td class="xl74">80.7</td>
+<td></td>
+<td class="xl74">14.6</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td></td>
+<td class="xl75">31,568</td>
+<td></td>
+<td class="xl75">4</td>
+<td></td>
+<td class="xl75">32</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">33</td>
+<td class="xl72">Poland</td>
+<td class="xl73">0.865</td>
+<td></td>
+<td class="xl74">77.8</td>
+<td></td>
+<td class="xl74">16.4</td>
+<td></td>
+<td class="xl74">12.3</td>
+<td></td>
+<td class="xl75">26,150</td>
+<td></td>
+<td class="xl75">12</td>
+<td></td>
+<td class="xl75">34</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">34</td>
+<td class="xl72">United Arab Emirates</td>
+<td class="xl73">0.863</td>
+<td></td>
+<td class="xl74">77.4</td>
+<td></td>
+<td class="xl74">13.6</td>
+<td></td>
+<td class="xl74">10.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">67,805</td>
+<td></td>
+<td class="xl75">-27</td>
+<td></td>
+<td class="xl75">33</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">35</td>
+<td class="xl72">Andorra</td>
+<td class="xl73">0.858</td>
+<td></td>
+<td class="xl74">81.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#g">g</a></sup></td>
+<td class="xl74">13.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl74">10.2</td>
+<td></td>
+<td class="xl75">47,574</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#m">m</a></sup></td>
+<td class="xl75">-18</td>
+<td></td>
+<td class="xl75">35</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">35</td>
+<td class="xl72">Lithuania</td>
+<td class="xl73">0.858</td>
+<td></td>
+<td class="xl74">74.8</td>
+<td></td>
+<td class="xl74">16.1</td>
+<td></td>
+<td class="xl74">13.0</td>
+<td></td>
+<td class="xl75">28,314</td>
+<td></td>
+<td class="xl75">7</td>
+<td></td>
+<td class="xl75">36</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">37</td>
+<td class="xl72">Qatar</td>
+<td class="xl73">0.856</td>
+<td></td>
+<td class="xl74">78.3</td>
+<td></td>
+<td class="xl74">13.4</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td></td>
+<td class="xl75">116,818</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#e">e</a></sup></td>
+<td class="xl75">-36</td>
+<td></td>
+<td class="xl75">36</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">38</td>
+<td class="xl72">Slovakia</td>
+<td class="xl73">0.855</td>
+<td></td>
+<td class="xl74">77.0</td>
+<td></td>
+<td class="xl74">15.0</td>
+<td></td>
+<td class="xl74">12.5</td>
+<td></td>
+<td class="xl75">29,467</td>
+<td></td>
+<td class="xl75">1</td>
+<td></td>
+<td class="xl75">39</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">39</td>
+<td class="xl72">Brunei Darussalam</td>
+<td class="xl73">0.853</td>
+<td></td>
+<td class="xl74">77.4</td>
+<td></td>
+<td class="xl74">14.5</td>
+<td></td>
+<td class="xl74">9.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">76,427</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#e">e</a></sup></td>
+<td class="xl75">-35</td>
+<td></td>
+<td class="xl75">40</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">39</td>
+<td class="xl72">Saudi Arabia</td>
+<td class="xl73">0.853</td>
+<td></td>
+<td class="xl74">74.7</td>
+<td></td>
+<td class="xl74">16.9</td>
+<td></td>
+<td class="xl74">9.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">49,680</td>
+<td></td>
+<td class="xl75">-26</td>
+<td></td>
+<td class="xl75">38</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">41</td>
+<td class="xl72">Latvia</td>
+<td class="xl73">0.847</td>
+<td></td>
+<td class="xl74">74.7</td>
+<td></td>
+<td class="xl74">15.8</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">25,002</td>
+<td></td>
+<td class="xl75">8</td>
+<td></td>
+<td class="xl75">43</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">41</td>
+<td class="xl72">Portugal</td>
+<td class="xl73">0.847</td>
+<td></td>
+<td class="xl74">81.4</td>
+<td></td>
+<td class="xl74">16.3</td>
+<td></td>
+<td class="xl74">9.2</td>
+<td></td>
+<td class="xl75">27,315</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">42</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">43</td>
+<td class="xl72">Bahrain</td>
+<td class="xl73">0.846</td>
+<td></td>
+<td class="xl74">77.0</td>
+<td></td>
+<td class="xl74">16.0</td>
+<td></td>
+<td class="xl74">9.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">41,580</td>
+<td></td>
+<td class="xl75">-19</td>
+<td></td>
+<td class="xl75">41</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">44</td>
+<td class="xl72">Chile</td>
+<td class="xl73">0.843</td>
+<td></td>
+<td class="xl74">79.7</td>
+<td></td>
+<td class="xl74">16.4</td>
+<td></td>
+<td class="xl74">10.3</td>
+<td></td>
+<td class="xl75">21,910</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">44</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">45</td>
+<td class="xl72">Hungary</td>
+<td class="xl73">0.838</td>
+<td></td>
+<td class="xl74">76.1</td>
+<td></td>
+<td class="xl74">15.1</td>
+<td></td>
+<td class="xl74">11.9</td>
+<td></td>
+<td class="xl75">25,393</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">45</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">46</td>
+<td class="xl72">Croatia</td>
+<td class="xl73">0.831</td>
+<td></td>
+<td class="xl74">77.8</td>
+<td></td>
+<td class="xl74">15.0</td>
+<td></td>
+<td class="xl74">11.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">22,162</td>
+<td></td>
+<td class="xl75">10</td>
+<td></td>
+<td class="xl75">46</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">47</td>
+<td class="xl72">Argentina</td>
+<td class="xl73">0.825</td>
+<td></td>
+<td class="xl74">76.7</td>
+<td></td>
+<td class="xl74">17.4</td>
+<td></td>
+<td class="xl74">9.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">18,461</td>
+<td></td>
+<td class="xl75">19</td>
+<td></td>
+<td class="xl75">47</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">48</td>
+<td class="xl72">Oman</td>
+<td class="xl73">0.821</td>
+<td></td>
+<td class="xl74">77.3</td>
+<td></td>
+<td class="xl74">13.9</td>
+<td></td>
+<td class="xl74">9.5</td>
+<td></td>
+<td class="xl75">36,290</td>
+<td></td>
+<td class="xl75">-19</td>
+<td></td>
+<td class="xl75">47</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">49</td>
+<td class="xl72">Russian Federation</td>
+<td class="xl73">0.816</td>
+<td></td>
+<td class="xl74">71.2</td>
+<td></td>
+<td class="xl74">15.5</td>
+<td></td>
+<td class="xl74">12.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">24,233</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">49</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">50</td>
+<td class="xl72">Montenegro</td>
+<td class="xl73">0.814</td>
+<td></td>
+<td class="xl74">77.3</td>
+<td></td>
+<td class="xl74">14.9</td>
+<td></td>
+<td class="xl74">11.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">16,779</td>
+<td></td>
+<td class="xl75">19</td>
+<td></td>
+<td class="xl75">50</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">51</td>
+<td class="xl72">Bulgaria</td>
+<td class="xl73">0.813</td>
+<td></td>
+<td class="xl74">74.9</td>
+<td></td>
+<td class="xl74">14.8</td>
+<td></td>
+<td class="xl74">11.8</td>
+<td></td>
+<td class="xl75">18,740</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">50</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">52</td>
+<td class="xl72">Romania</td>
+<td class="xl73">0.811</td>
+<td></td>
+<td class="xl74">75.6</td>
+<td></td>
+<td class="xl74">14.3</td>
+<td></td>
+<td class="xl74">11.0</td>
+<td></td>
+<td class="xl75">22,646</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">52</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">53</td>
+<td class="xl72">Belarus</td>
+<td class="xl73">0.808</td>
+<td></td>
+<td class="xl74">73.1</td>
+<td></td>
+<td class="xl74">15.5</td>
+<td></td>
+<td class="xl74">12.3</td>
+<td></td>
+<td class="xl75">16,323</td>
+<td></td>
+<td class="xl75">18</td>
+<td></td>
+<td class="xl75">54</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">54</td>
+<td class="xl72">Bahamas</td>
+<td class="xl73">0.807</td>
+<td></td>
+<td class="xl74">75.8</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">11.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">26,681</td>
+<td></td>
+<td class="xl75">-10</td>
+<td></td>
+<td class="xl75">53</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">55</td>
+<td class="xl72">Uruguay</td>
+<td class="xl73">0.804</td>
+<td></td>
+<td class="xl74">77.6</td>
+<td></td>
+<td class="xl74">15.9</td>
+<td></td>
+<td class="xl74">8.7</td>
+<td></td>
+<td class="xl75">19,930</td>
+<td></td>
+<td class="xl75">5</td>
+<td></td>
+<td class="xl75">56</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">56</td>
+<td class="xl72">Kuwait</td>
+<td class="xl73">0.803</td>
+<td></td>
+<td class="xl74">74.8</td>
+<td></td>
+<td class="xl74">13.6</td>
+<td></td>
+<td class="xl74">7.3</td>
+<td></td>
+<td class="xl75">70,524</td>
+<td></td>
+<td class="xl75">-51</td>
+<td></td>
+<td class="xl75">55</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">57</td>
+<td class="xl72">Malaysia</td>
+<td class="xl73">0.802</td>
+<td></td>
+<td class="xl74">75.5</td>
+<td></td>
+<td class="xl74">13.7</td>
+<td></td>
+<td class="xl74">10.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">26,107</td>
+<td></td>
+<td class="xl75">-11</td>
+<td></td>
+<td class="xl75">57</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">58</td>
+<td class="xl72">Barbados</td>
+<td class="xl73">0.800</td>
+<td></td>
+<td class="xl74">76.1</td>
+<td></td>
+<td class="xl74">15.3</td>
+<td></td>
+<td class="xl74">10.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">15,843</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">14</td>
+<td></td>
+<td class="xl75">57</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">58</td>
+<td class="xl72">Kazakhstan</td>
+<td class="xl73">0.800</td>
+<td></td>
+<td class="xl74">70.0</td>
+<td></td>
+<td class="xl74">15.1</td>
+<td></td>
+<td class="xl74">11.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">22,626</td>
+<td></td>
+<td class="xl75">-3</td>
+<td></td>
+<td class="xl75">60</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-even"><td height="20" class="xl76" style="height:15.0pt"></td>
+<td colspan="15" class="xl93">HIGH HUMAN DEVELOPMENT</td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">60</td>
+<td class="xl72">Iran (Islamic Republic of)</td>
+<td class="xl73">0.798</td>
+<td></td>
+<td class="xl74">76.2</td>
+<td></td>
+<td class="xl74">14.9</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td></td>
+<td class="xl75">19,130</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">61</td>
+<td></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">60</td>
+<td class="xl72">Palau</td>
+<td class="xl73">0.798</td>
+<td></td>
+<td class="xl74">73.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#g">g</a></sup></td>
+<td class="xl74">15.6</td>
+<td></td>
+<td class="xl74">12.3</td>
+<td></td>
+<td class="xl75">12,831</td>
+<td></td>
+<td class="xl75">28</td>
+<td></td>
+<td class="xl75">59</td>
+<td></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">62</td>
+<td class="xl72">Seychelles</td>
+<td class="xl73">0.797</td>
+<td></td>
+<td class="xl74">73.7</td>
+<td></td>
+<td class="xl74">14.8</td>
+<td></td>
+<td class="xl74">9.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl75">26,077</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-15</td>
+<td></td>
+<td class="xl75">62</td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">63</td>
+<td class="xl72">Costa Rica</td>
+<td class="xl73">0.794</td>
+<td></td>
+<td class="xl74">80.0</td>
+<td></td>
+<td class="xl74">15.4</td>
+<td></td>
+<td class="xl74">8.8</td>
+<td></td>
+<td class="xl75">14,636</td>
+<td></td>
+<td class="xl75">15</td>
+<td></td>
+<td class="xl75">63</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">64</td>
+<td class="xl72">Turkey</td>
+<td class="xl73">0.791</td>
+<td></td>
+<td class="xl74">76.0</td>
+<td></td>
+<td class="xl74">15.2</td>
+<td></td>
+<td class="xl74">8.0</td>
+<td></td>
+<td class="xl75">24,804</td>
+<td></td>
+<td class="xl75">-14</td>
+<td></td>
+<td class="xl75">65</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">65</td>
+<td class="xl72">Mauritius</td>
+<td class="xl73">0.790</td>
+<td></td>
+<td class="xl74">74.9</td>
+<td></td>
+<td class="xl74">15.1</td>
+<td></td>
+<td class="xl74">9.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">20,189</td>
+<td></td>
+<td class="xl75">-6</td>
+<td></td>
+<td class="xl75">64</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">66</td>
+<td class="xl72">Panama</td>
+<td class="xl73">0.789</td>
+<td></td>
+<td class="xl74">78.2</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td></td>
+<td class="xl74">10.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">19,178</td>
+<td></td>
+<td class="xl75">-4</td>
+<td></td>
+<td class="xl75">66</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">67</td>
+<td class="xl72">Serbia</td>
+<td class="xl73">0.787</td>
+<td></td>
+<td class="xl74">75.3</td>
+<td></td>
+<td class="xl74">14.6</td>
+<td></td>
+<td class="xl74">11.1</td>
+<td></td>
+<td class="xl75">13,019</td>
+<td></td>
+<td class="xl75">18</td>
+<td></td>
+<td class="xl75">66</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">68</td>
+<td class="xl72">Albania</td>
+<td class="xl73">0.785</td>
+<td></td>
+<td class="xl74">78.5</td>
+<td></td>
+<td class="xl74">14.8</td>
+<td></td>
+<td class="xl74">10.0</td>
+<td></td>
+<td class="xl75">11,886</td>
+<td></td>
+<td class="xl75">23</td>
+<td></td>
+<td class="xl75">69</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">69</td>
+<td class="xl72">Trinidad and Tobago</td>
+<td class="xl73">0.784</td>
+<td></td>
+<td class="xl74">70.8</td>
+<td></td>
+<td class="xl74">12.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">10.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">28,622</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-28</td>
+<td></td>
+<td class="xl75">66</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">70</td>
+<td class="xl72">Antigua and Barbuda</td>
+<td class="xl73">0.780</td>
+<td></td>
+<td class="xl74">76.5</td>
+<td></td>
+<td class="xl74">13.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">9.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl75">20,764</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-12</td>
+<td></td>
+<td class="xl75">70</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">70</td>
+<td class="xl72">Georgia</td>
+<td class="xl73">0.780</td>
+<td></td>
+<td class="xl74">73.4</td>
+<td></td>
+<td class="xl74">15.0</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td></td>
+<td class="xl75">9,186</td>
+<td></td>
+<td class="xl75">35</td>
+<td></td>
+<td class="xl75">71</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">72</td>
+<td class="xl72">Saint Kitts and Nevis</td>
+<td class="xl73">0.778</td>
+<td></td>
+<td class="xl74">74.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#g">g</a></sup></td>
+<td class="xl74">14.4</td>
+<td></td>
+<td class="xl74">8.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl75">23,978</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-19</td>
+<td></td>
+<td class="xl75">72</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">73</td>
+<td class="xl72">Cuba</td>
+<td class="xl73">0.777</td>
+<td></td>
+<td class="xl74">79.9</td>
+<td></td>
+<td class="xl74">14.0</td>
+<td></td>
+<td class="xl74">11.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">7,524</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#p">p</a></sup></td>
+<td class="xl75">43</td>
+<td></td>
+<td class="xl75">72</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">74</td>
+<td class="xl72">Mexico</td>
+<td class="xl73">0.774</td>
+<td></td>
+<td class="xl74">77.3</td>
+<td></td>
+<td class="xl74">14.1</td>
+<td></td>
+<td class="xl74">8.6</td>
+<td></td>
+<td class="xl75">16,944</td>
+<td></td>
+<td class="xl75">-6</td>
+<td></td>
+<td class="xl75">74</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">75</td>
+<td class="xl72">Grenada</td>
+<td class="xl73">0.772</td>
+<td></td>
+<td class="xl74">73.8</td>
+<td></td>
+<td class="xl74">16.9</td>
+<td></td>
+<td class="xl74">8.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl75">12,864</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">12</td>
+<td></td>
+<td class="xl75">75</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">76</td>
+<td class="xl72">Sri Lanka</td>
+<td class="xl73">0.770</td>
+<td></td>
+<td class="xl74">75.5</td>
+<td></td>
+<td class="xl74">13.9</td>
+<td></td>
+<td class="xl74">10.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">11,326</td>
+<td></td>
+<td class="xl75">19</td>
+<td></td>
+<td class="xl75">76</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">77</td>
+<td class="xl72">Bosnia and Herzegovina</td>
+<td class="xl73">0.768</td>
+<td></td>
+<td class="xl74">77.1</td>
+<td></td>
+<td class="xl74">14.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl74">9.7</td>
+<td></td>
+<td class="xl75">11,716</td>
+<td></td>
+<td class="xl75">16</td>
+<td></td>
+<td class="xl75">77</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">78</td>
+<td class="xl72">Venezuela (Bolivarian Republic of)</td>
+<td class="xl73">0.761</td>
+<td></td>
+<td class="xl74">74.7</td>
+<td></td>
+<td class="xl74">14.3</td>
+<td></td>
+<td class="xl74">10.3</td>
+<td></td>
+<td class="xl75">10,672</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">20</td>
+<td></td>
+<td class="xl75">77</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">79</td>
+<td class="xl72">Brazil</td>
+<td class="xl73">0.759</td>
+<td></td>
+<td class="xl74">75.7</td>
+<td></td>
+<td class="xl74">15.4</td>
+<td></td>
+<td class="xl74">7.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">13,755</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">79</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">80</td>
+<td class="xl72">Azerbaijan</td>
+<td class="xl73">0.757</td>
+<td></td>
+<td class="xl74">72.1</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">10.7</td>
+<td></td>
+<td class="xl75">15,600</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-7</td>
+<td></td>
+<td class="xl75">80</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">80</td>
+<td class="xl72">Lebanon</td>
+<td class="xl73">0.757</td>
+<td></td>
+<td class="xl74">79.8</td>
+<td></td>
+<td class="xl74">12.5</td>
+<td></td>
+<td class="xl74">8.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">13,378</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">82</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">80</td>
+<td class="xl72">The former Yugoslav Republic of <span style="display:none">Macedonia</span></td>
+<td class="xl73">0.757</td>
+<td></td>
+<td class="xl74">75.9</td>
+<td></td>
+<td class="xl74">13.3</td>
+<td></td>
+<td class="xl74">9.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">12,505</td>
+<td></td>
+<td class="xl75">9</td>
+<td></td>
+<td class="xl75">81</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">83</td>
+<td class="xl72">Armenia</td>
+<td class="xl73">0.755</td>
+<td></td>
+<td class="xl74">74.8</td>
+<td></td>
+<td class="xl74">13.0</td>
+<td></td>
+<td class="xl74">11.7</td>
+<td></td>
+<td class="xl75">9,144</td>
+<td></td>
+<td class="xl75">24</td>
+<td></td>
+<td class="xl75">84</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">83</td>
+<td class="xl72">Thailand</td>
+<td class="xl73">0.755</td>
+<td></td>
+<td class="xl74">75.5</td>
+<td></td>
+<td class="xl74">14.7</td>
+<td></td>
+<td class="xl74">7.6</td>
+<td></td>
+<td class="xl75">15,516</td>
+<td></td>
+<td class="xl75">-7</td>
+<td></td>
+<td class="xl75">86</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">85</td>
+<td class="xl72">Algeria</td>
+<td class="xl73">0.754</td>
+<td></td>
+<td class="xl74">76.3</td>
+<td></td>
+<td class="xl74">14.4</td>
+<td></td>
+<td class="xl74">8.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">13,802</td>
+<td></td>
+<td class="xl75">-5</td>
+<td></td>
+<td class="xl75">83</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">86</td>
+<td class="xl72">China</td>
+<td class="xl73">0.752</td>
+<td></td>
+<td class="xl74">76.4</td>
+<td></td>
+<td class="xl74">13.8</td>
+<td></td>
+<td class="xl74">7.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">15,270</td>
+<td></td>
+<td class="xl75">-9</td>
+<td></td>
+<td class="xl75">86</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">86</td>
+<td class="xl72">Ecuador</td>
+<td class="xl73">0.752</td>
+<td></td>
+<td class="xl74">76.6</td>
+<td></td>
+<td class="xl74">14.7</td>
+<td></td>
+<td class="xl74">8.7</td>
+<td></td>
+<td class="xl75">10,347</td>
+<td></td>
+<td class="xl75">15</td>
+<td></td>
+<td class="xl75">84</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">88</td>
+<td class="xl72">Ukraine</td>
+<td class="xl73">0.751</td>
+<td></td>
+<td class="xl74">72.1</td>
+<td></td>
+<td class="xl74">15.0</td>
+<td></td>
+<td class="xl74">11.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">8,130</td>
+<td></td>
+<td class="xl75">24</td>
+<td></td>
+<td class="xl75">90</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">89</td>
+<td class="xl72">Peru</td>
+<td class="xl73">0.750</td>
+<td></td>
+<td class="xl74">75.2</td>
+<td></td>
+<td class="xl74">13.8</td>
+<td></td>
+<td class="xl74">9.2</td>
+<td></td>
+<td class="xl75">11,789</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">86</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">90</td>
+<td class="xl72">Colombia</td>
+<td class="xl73">0.747</td>
+<td></td>
+<td class="xl74">74.6</td>
+<td></td>
+<td class="xl74">14.4</td>
+<td></td>
+<td class="xl74">8.3</td>
+<td></td>
+<td class="xl75">12,938</td>
+<td></td>
+<td class="xl75">-4</td>
+<td></td>
+<td class="xl75">89</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">90</td>
+<td class="xl72">Saint Lucia</td>
+<td class="xl73">0.747</td>
+<td></td>
+<td class="xl74">75.7</td>
+<td></td>
+<td class="xl74">13.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">8.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">11,695</td>
+<td></td>
+<td class="xl75">4</td>
+<td></td>
+<td class="xl75">91</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">92</td>
+<td class="xl72">Fiji</td>
+<td class="xl73">0.741</td>
+<td></td>
+<td class="xl74">70.4</td>
+<td></td>
+<td class="xl74">15.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">10.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">8,324</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">18</td>
+<td></td>
+<td class="xl75">93</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">92</td>
+<td class="xl72">Mongolia</td>
+<td class="xl73">0.741</td>
+<td></td>
+<td class="xl74">69.5</td>
+<td></td>
+<td class="xl74">15.5</td>
+<td></td>
+<td class="xl74">10.1</td>
+<td></td>
+<td class="xl75">10,103</td>
+<td></td>
+<td class="xl75">11</td>
+<td></td>
+<td class="xl75">92</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">94</td>
+<td class="xl72">Dominican Republic</td>
+<td class="xl73">0.736</td>
+<td></td>
+<td class="xl74">74.0</td>
+<td></td>
+<td class="xl74">13.7</td>
+<td></td>
+<td class="xl74">7.8</td>
+<td></td>
+<td class="xl75">13,921</td>
+<td></td>
+<td class="xl75">-15</td>
+<td></td>
+<td class="xl75">95</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">95</td>
+<td class="xl72">Jordan</td>
+<td class="xl73">0.735</td>
+<td></td>
+<td class="xl74">74.5</td>
+<td></td>
+<td class="xl74">13.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">10.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">8,288</td>
+<td></td>
+<td class="xl75">16</td>
+<td></td>
+<td class="xl75">94</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">95</td>
+<td class="xl72">Tunisia</td>
+<td class="xl73">0.735</td>
+<td></td>
+<td class="xl74">75.9</td>
+<td></td>
+<td class="xl74">15.1</td>
+<td></td>
+<td class="xl74">7.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">10,275</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">7</td>
+<td></td>
+<td class="xl75">96</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">97</td>
+<td class="xl72">Jamaica</td>
+<td class="xl73">0.732</td>
+<td></td>
+<td class="xl74">76.1</td>
+<td></td>
+<td class="xl74">13.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">9.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">7,846</td>
+<td></td>
+<td class="xl75">17</td>
+<td></td>
+<td class="xl75">96</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">98</td>
+<td class="xl72">Tonga</td>
+<td class="xl73">0.726</td>
+<td></td>
+<td class="xl74">73.2</td>
+<td></td>
+<td class="xl74">14.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">11.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">5,547</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">37</td>
+<td></td>
+<td class="xl75">98</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">99</td>
+<td class="xl72">Saint Vincent and the Grenadines</td>
+<td class="xl73">0.723</td>
+<td></td>
+<td class="xl74">73.3</td>
+<td></td>
+<td class="xl74">13.3</td>
+<td></td>
+<td class="xl74">8.6</td>
+<td></td>
+<td class="xl75">10,499</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">0</td>
+<td></td>
+<td class="xl75">99</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">100</td>
+<td class="xl72">Suriname</td>
+<td class="xl73">0.720</td>
+<td></td>
+<td class="xl74">71.5</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">8.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">13,306</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-16</td>
+<td></td>
+<td class="xl75">100</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">101</td>
+<td class="xl72">Botswana</td>
+<td class="xl73">0.717</td>
+<td></td>
+<td class="xl74">67.6</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">9.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">15,534</td>
+<td></td>
+<td class="xl75">-26</td>
+<td></td>
+<td class="xl75">102</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">101</td>
+<td class="xl72">Maldives</td>
+<td class="xl73">0.717</td>
+<td></td>
+<td class="xl74">77.6</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">6.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">13,567</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-19</td>
+<td></td>
+<td class="xl75">102</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">103</td>
+<td class="xl72">Dominica</td>
+<td class="xl73">0.715</td>
+<td></td>
+<td class="xl74">78.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#g">g</a></sup></td>
+<td class="xl74">12.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">7.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl75">8,344</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">6</td>
+<td></td>
+<td class="xl75">101</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">104</td>
+<td class="xl72">Samoa</td>
+<td class="xl73">0.713</td>
+<td></td>
+<td class="xl74">75.2</td>
+<td></td>
+<td class="xl74">12.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl74">10.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl75">5,909</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">24</td>
+<td></td>
+<td class="xl75">104</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">105</td>
+<td class="xl72">Uzbekistan</td>
+<td class="xl73">0.710</td>
+<td></td>
+<td class="xl74">71.4</td>
+<td></td>
+<td class="xl74">12.0</td>
+<td></td>
+<td class="xl74">11.5</td>
+<td></td>
+<td class="xl75">6,470</td>
+<td></td>
+<td class="xl75">19</td>
+<td></td>
+<td class="xl75">107</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">106</td>
+<td class="xl72">Belize</td>
+<td class="xl73">0.708</td>
+<td></td>
+<td class="xl74">70.6</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td></td>
+<td class="xl74">10.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">7,166</td>
+<td></td>
+<td class="xl75">14</td>
+<td></td>
+<td class="xl75">105</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">106</td>
+<td class="xl72">Marshall Islands</td>
+<td class="xl73">0.708</td>
+<td></td>
+<td class="xl74">73.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#g">g</a></sup></td>
+<td class="xl74">13.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl74">10.9</td>
+<td></td>
+<td class="xl75">5,125</td>
+<td></td>
+<td class="xl75">33</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">108</td>
+<td class="xl72">Libya</td>
+<td class="xl73">0.706</td>
+<td></td>
+<td class="xl74">72.1</td>
+<td></td>
+<td class="xl74">13.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">7.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">11,100</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-12</td>
+<td></td>
+<td class="xl75">114</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">108</td>
+<td class="xl72">Turkmenistan</td>
+<td class="xl73">0.706</td>
+<td></td>
+<td class="xl74">68.0</td>
+<td></td>
+<td class="xl74">10.8</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">15,594</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-34</td>
+<td></td>
+<td class="xl75">106</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">110</td>
+<td class="xl72">Gabon</td>
+<td class="xl73">0.702</td>
+<td></td>
+<td class="xl74">66.5</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">8.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">16,431</td>
+<td></td>
+<td class="xl75">-40</td>
+<td></td>
+<td class="xl75">109</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">110</td>
+<td class="xl72">Paraguay</td>
+<td class="xl73">0.702</td>
+<td></td>
+<td class="xl74">73.2</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td></td>
+<td class="xl74">8.4</td>
+<td></td>
+<td class="xl75">8,380</td>
+<td></td>
+<td class="xl75">-2</td>
+<td></td>
+<td class="xl75">108</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">112</td>
+<td class="xl72">Moldova (Republic of)</td>
+<td class="xl73">0.700</td>
+<td></td>
+<td class="xl74">71.7</td>
+<td></td>
+<td class="xl74">11.6</td>
+<td></td>
+<td class="xl74">11.6</td>
+<td></td>
+<td class="xl75">5,554</td>
+<td></td>
+<td class="xl75">22</td>
+<td></td>
+<td class="xl75">110</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-even"><td height="20" class="xl76" style="height:15.0pt"></td>
+<td colspan="15" class="xl93">MEDIUM HUMAN DEVELOPMENT</td>
+<td></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">113</td>
+<td class="xl72">Philippines</td>
+<td class="xl73">0.699</td>
+<td></td>
+<td class="xl74">69.2</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td></td>
+<td class="xl74">9.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">9,154</td>
+<td></td>
+<td class="xl75">-7</td>
+<td></td>
+<td class="xl75">111</td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">113</td>
+<td class="xl72">South Africa</td>
+<td class="xl73">0.699</td>
+<td></td>
+<td class="xl74">63.4</td>
+<td></td>
+<td class="xl74">13.3</td>
+<td></td>
+<td class="xl74">10.1</td>
+<td></td>
+<td class="xl75">11,923</td>
+<td></td>
+<td class="xl75">-23</td>
+<td></td>
+<td class="xl75">111</td>
+<td></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">115</td>
+<td class="xl72">Egypt</td>
+<td class="xl73">0.696</td>
+<td></td>
+<td class="xl74">71.7</td>
+<td></td>
+<td class="xl74">13.1</td>
+<td></td>
+<td class="xl74">7.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">10,355</td>
+<td></td>
+<td class="xl75">-15</td>
+<td></td>
+<td class="xl75">113</td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">116</td>
+<td class="xl72">Indonesia</td>
+<td class="xl73">0.694</td>
+<td></td>
+<td class="xl74">69.4</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td></td>
+<td class="xl74">8.0</td>
+<td></td>
+<td class="xl75">10,846</td>
+<td></td>
+<td class="xl75">-19</td>
+<td></td>
+<td class="xl75">115</td>
+<td></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">116</td>
+<td class="xl72">Viet Nam</td>
+<td class="xl73">0.694</td>
+<td></td>
+<td class="xl74">76.5</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl74">8.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">5,859</td>
+<td></td>
+<td class="xl75">14</td>
+<td></td>
+<td class="xl75">116</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">118</td>
+<td class="xl72">Bolivia (Plurinational State of)</td>
+<td class="xl73">0.693</td>
+<td></td>
+<td class="xl74">69.5</td>
+<td></td>
+<td class="xl74">14.0</td>
+<td></td>
+<td class="xl74">8.9</td>
+<td></td>
+<td class="xl75">6,714</td>
+<td></td>
+<td class="xl75">5</td>
+<td></td>
+<td class="xl75">116</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">119</td>
+<td class="xl72">Palestine, State of</td>
+<td class="xl73">0.686</td>
+<td></td>
+<td class="xl74">73.6</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td></td>
+<td class="xl74">9.1</td>
+<td></td>
+<td class="xl75">5,055</td>
+<td></td>
+<td class="xl75">21</td>
+<td></td>
+<td class="xl75">116</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">120</td>
+<td class="xl72">Iraq</td>
+<td class="xl73">0.685</td>
+<td></td>
+<td class="xl74">70.0</td>
+<td></td>
+<td class="xl74">11.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">6.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">17,789</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-53</td>
+<td></td>
+<td class="xl75">120</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">121</td>
+<td class="xl72">El Salvador</td>
+<td class="xl73">0.674</td>
+<td></td>
+<td class="xl74">73.8</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td></td>
+<td class="xl74">6.9</td>
+<td></td>
+<td class="xl75">6,868</td>
+<td></td>
+<td class="xl75">0</td>
+<td></td>
+<td class="xl75">119</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">122</td>
+<td class="xl72">Kyrgyzstan</td>
+<td class="xl73">0.672</td>
+<td></td>
+<td class="xl74">71.1</td>
+<td></td>
+<td class="xl74">13.4</td>
+<td></td>
+<td class="xl74">10.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">3,255</td>
+<td></td>
+<td class="xl75">32</td>
+<td></td>
+<td class="xl75">121</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">123</td>
+<td class="xl72">Morocco</td>
+<td class="xl73">0.667</td>
+<td></td>
+<td class="xl74">76.1</td>
+<td></td>
+<td class="xl74">12.4</td>
+<td></td>
+<td class="xl74">5.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">7,340</td>
+<td></td>
+<td class="xl75">-5</td>
+<td></td>
+<td class="xl75">122</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">124</td>
+<td class="xl72">Nicaragua</td>
+<td class="xl73">0.658</td>
+<td></td>
+<td class="xl74">75.7</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td></td>
+<td class="xl74">6.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">5,157</td>
+<td></td>
+<td class="xl75">14</td>
+<td></td>
+<td class="xl75">123</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">125</td>
+<td class="xl72">Cabo Verde</td>
+<td class="xl73">0.654</td>
+<td></td>
+<td class="xl74">73.0</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td></td>
+<td class="xl74">6.1</td>
+<td></td>
+<td class="xl75">5,983</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">124</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">125</td>
+<td class="xl72">Guyana</td>
+<td class="xl73">0.654</td>
+<td></td>
+<td class="xl74">66.8</td>
+<td></td>
+<td class="xl74">11.4</td>
+<td></td>
+<td class="xl74">8.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">7,447</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-8</td>
+<td></td>
+<td class="xl75">124</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">127</td>
+<td class="xl72">Guatemala</td>
+<td class="xl73">0.650</td>
+<td></td>
+<td class="xl74">73.7</td>
+<td></td>
+<td class="xl74">10.8</td>
+<td></td>
+<td class="xl74">6.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">7,278</td>
+<td></td>
+<td class="xl75">-8</td>
+<td></td>
+<td class="xl75">126</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">127</td>
+<td class="xl72">Tajikistan</td>
+<td class="xl73">0.650</td>
+<td></td>
+<td class="xl74">71.2</td>
+<td></td>
+<td class="xl74">11.2</td>
+<td></td>
+<td class="xl74">10.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">3,317</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">25</td>
+<td></td>
+<td class="xl75">127</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">129</td>
+<td class="xl72">Namibia</td>
+<td class="xl73">0.647</td>
+<td></td>
+<td class="xl74">64.9</td>
+<td></td>
+<td class="xl74">12.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">6.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">9,387</td>
+<td></td>
+<td class="xl75">-25</td>
+<td></td>
+<td class="xl75">128</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">130</td>
+<td class="xl72">India</td>
+<td class="xl73">0.640</td>
+<td></td>
+<td class="xl74">68.8</td>
+<td></td>
+<td class="xl74">12.3</td>
+<td></td>
+<td class="xl74">6.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">6,353</td>
+<td></td>
+<td class="xl75">-5</td>
+<td></td>
+<td class="xl75">129</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">131</td>
+<td class="xl72">Micronesia (Federated States of)</td>
+<td class="xl73">0.627</td>
+<td></td>
+<td class="xl74">69.3</td>
+<td></td>
+<td class="xl74">11.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl74">8.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl75">3,843</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">131</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">132</td>
+<td class="xl72">Timor-Leste</td>
+<td class="xl73">0.625</td>
+<td></td>
+<td class="xl74">69.2</td>
+<td></td>
+<td class="xl74">12.8</td>
+<td></td>
+<td class="xl74">4.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">6,846</td>
+<td></td>
+<td class="xl75">-10</td>
+<td></td>
+<td class="xl75">130</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">133</td>
+<td class="xl72">Honduras</td>
+<td class="xl73">0.617</td>
+<td></td>
+<td class="xl74">73.8</td>
+<td></td>
+<td class="xl74">10.2</td>
+<td></td>
+<td class="xl74">6.5</td>
+<td></td>
+<td class="xl75">4,215</td>
+<td></td>
+<td class="xl75">8</td>
+<td></td>
+<td class="xl75">132</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">134</td>
+<td class="xl72">Bhutan</td>
+<td class="xl73">0.612</td>
+<td></td>
+<td class="xl74">70.6</td>
+<td></td>
+<td class="xl74">12.3</td>
+<td></td>
+<td class="xl74">3.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">8,065</td>
+<td></td>
+<td class="xl75">-21</td>
+<td></td>
+<td class="xl75">135</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">134</td>
+<td class="xl72">Kiribati</td>
+<td class="xl73">0.612</td>
+<td></td>
+<td class="xl74">66.5</td>
+<td></td>
+<td class="xl74">12.9</td>
+<td></td>
+<td class="xl74">7.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl75">3,042</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">22</td>
+<td></td>
+<td class="xl75">134</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">136</td>
+<td class="xl72">Bangladesh</td>
+<td class="xl73">0.608</td>
+<td></td>
+<td class="xl74">72.8</td>
+<td></td>
+<td class="xl74">11.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">5.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">3,677</td>
+<td></td>
+<td class="xl75">9</td>
+<td></td>
+<td class="xl75">138</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">137</td>
+<td class="xl72">Congo</td>
+<td class="xl73">0.606</td>
+<td></td>
+<td class="xl74">65.1</td>
+<td></td>
+<td class="xl74">11.4</td>
+<td></td>
+<td class="xl74">6.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">5,694</td>
+<td></td>
+<td class="xl75">-5</td>
+<td></td>
+<td class="xl75">133</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">138</td>
+<td class="xl72">Vanuatu</td>
+<td class="xl73">0.603</td>
+<td></td>
+<td class="xl74">72.3</td>
+<td></td>
+<td class="xl74">10.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">6.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">2,995</td>
+<td></td>
+<td class="xl75">19</td>
+<td></td>
+<td class="xl75">136</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">139</td>
+<td class="xl72">Lao People's Democratic Republi<span style="display:none">c</span></td>
+<td class="xl73">0.601</td>
+<td></td>
+<td class="xl74">67.0</td>
+<td></td>
+<td class="xl74">11.2</td>
+<td></td>
+<td class="xl74">5.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">6,070</td>
+<td></td>
+<td class="xl75">-13</td>
+<td></td>
+<td class="xl75">137</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">140</td>
+<td class="xl72">Ghana</td>
+<td class="xl73">0.592</td>
+<td></td>
+<td class="xl74">63.0</td>
+<td></td>
+<td class="xl74">11.6</td>
+<td></td>
+<td class="xl74">7.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">4,096</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">140</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">141</td>
+<td class="xl72">Equatorial Guinea</td>
+<td class="xl73">0.591</td>
+<td></td>
+<td class="xl74">57.9</td>
+<td></td>
+<td class="xl74">9.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">5.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">19,513</td>
+<td></td>
+<td class="xl75">-80</td>
+<td></td>
+<td class="xl75">139</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">142</td>
+<td class="xl72">Kenya</td>
+<td class="xl73">0.590</td>
+<td></td>
+<td class="xl74">67.3</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">6.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">2,961</td>
+<td></td>
+<td class="xl75">16</td>
+<td></td>
+<td class="xl75">143</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">143</td>
+<td class="xl72">Sao Tome and Principe</td>
+<td class="xl73">0.589</td>
+<td></td>
+<td class="xl74">66.8</td>
+<td></td>
+<td class="xl74">12.5</td>
+<td></td>
+<td class="xl74">6.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">2,941</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">16</td>
+<td></td>
+<td class="xl75">144</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">144</td>
+<td class="xl72">Eswatini (Kingdom of)</td>
+<td class="xl73">0.588</td>
+<td></td>
+<td class="xl74">58.3</td>
+<td></td>
+<td class="xl74">11.2</td>
+<td></td>
+<td class="xl74">6.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">7,620</td>
+<td></td>
+<td class="xl75">-29</td>
+<td></td>
+<td class="xl75">141</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">144</td>
+<td class="xl72">Zambia</td>
+<td class="xl73">0.588</td>
+<td></td>
+<td class="xl74">62.3</td>
+<td></td>
+<td class="xl74">12.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">7.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">3,557</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">141</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">146</td>
+<td class="xl72">Cambodia</td>
+<td class="xl73">0.582</td>
+<td></td>
+<td class="xl74">69.3</td>
+<td></td>
+<td class="xl74">11.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">4.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">3,413</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">146</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">147</td>
+<td class="xl72">Angola</td>
+<td class="xl73">0.581</td>
+<td></td>
+<td class="xl74">61.8</td>
+<td></td>
+<td class="xl74">11.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">5.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">5,790</td>
+<td></td>
+<td class="xl75">-16</td>
+<td></td>
+<td class="xl75">145</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">148</td>
+<td class="xl72">Myanmar</td>
+<td class="xl73">0.578</td>
+<td></td>
+<td class="xl74">66.7</td>
+<td></td>
+<td class="xl74">10.0</td>
+<td></td>
+<td class="xl74">4.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">5,567</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-15</td>
+<td></td>
+<td class="xl75">147</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">149</td>
+<td class="xl72">Nepal</td>
+<td class="xl73">0.574</td>
+<td></td>
+<td class="xl74">70.6</td>
+<td></td>
+<td class="xl74">12.2</td>
+<td></td>
+<td class="xl74">4.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">2,471</td>
+<td></td>
+<td class="xl75">12</td>
+<td></td>
+<td class="xl75">148</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl75" style="height:14.25pt">150</td>
+<td class="xl72">Pakistan</td>
+<td class="xl73">0.562</td>
+<td></td>
+<td class="xl74">66.6</td>
+<td></td>
+<td class="xl74">8.6</td>
+<td></td>
+<td class="xl74">5.2</td>
+<td></td>
+<td class="xl75">5,311</td>
+<td></td>
+<td class="xl75">-14</td>
+<td></td>
+<td class="xl75">149</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">151</td>
+<td class="xl72">Cameroon</td>
+<td class="xl73">0.556</td>
+<td></td>
+<td class="xl74">58.6</td>
+<td></td>
+<td class="xl74">12.2</td>
+<td></td>
+<td class="xl74">6.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">3,315</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">150</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-even"><td height="20" class="xl76" style="height:15.0pt"></td>
+<td colspan="15" class="xl93">LOW HUMAN DEVELOPMENT</td>
+<td></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">152</td>
+<td class="xl72">Solomon Islands</td>
+<td class="xl73">0.546</td>
+<td></td>
+<td class="xl74">71.0</td>
+<td></td>
+<td class="xl74">10.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#d">d</a></sup></td>
+<td class="xl74">5.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,872</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">15</td>
+<td></td>
+<td class="xl75">151</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">153</td>
+<td class="xl72">Papua New Guinea</td>
+<td class="xl73">0.544</td>
+<td></td>
+<td class="xl74">65.7</td>
+<td></td>
+<td class="xl74">10.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">4.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">3,403</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-3</td>
+<td></td>
+<td class="xl75">151</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">154</td>
+<td class="xl72">Tanzania (United Republic of)</td>
+<td class="xl73">0.538</td>
+<td></td>
+<td class="xl74">66.3</td>
+<td></td>
+<td class="xl74">8.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">5.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">2,655</td>
+<td></td>
+<td class="xl75">6</td>
+<td></td>
+<td class="xl75">154</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">155</td>
+<td class="xl72">Syrian Arab Republic</td>
+<td class="xl73">0.536</td>
+<td></td>
+<td class="xl74">71.0</td>
+<td></td>
+<td class="xl74">8.8</td>
+<td></td>
+<td class="xl74">5.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#r">r</a></sup></td>
+<td class="xl75">2,337</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#s">s</a></sup></td>
+<td class="xl75">8</td>
+<td></td>
+<td class="xl75">153</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">156</td>
+<td class="xl72">Zimbabwe</td>
+<td class="xl73">0.535</td>
+<td></td>
+<td class="xl74">61.7</td>
+<td></td>
+<td class="xl74">10.3</td>
+<td></td>
+<td class="xl74">8.1</td>
+<td></td>
+<td class="xl75">1,683</td>
+<td></td>
+<td class="xl75">17</td>
+<td></td>
+<td class="xl75">155</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">157</td>
+<td class="xl72">Nigeria</td>
+<td class="xl73">0.532</td>
+<td></td>
+<td class="xl74">53.9</td>
+<td></td>
+<td class="xl74">10.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">6.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">5,231</td>
+<td></td>
+<td class="xl75">-20</td>
+<td></td>
+<td class="xl75">156</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">158</td>
+<td class="xl72">Rwanda</td>
+<td class="xl73">0.524</td>
+<td></td>
+<td class="xl74">67.5</td>
+<td></td>
+<td class="xl74">11.2</td>
+<td></td>
+<td class="xl74">4.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">1,811</td>
+<td></td>
+<td class="xl75">11</td>
+<td></td>
+<td class="xl75">157</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">159</td>
+<td class="xl72">Lesotho</td>
+<td class="xl73">0.520</td>
+<td></td>
+<td class="xl74">54.6</td>
+<td></td>
+<td class="xl74">10.6</td>
+<td></td>
+<td class="xl74">6.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">3,255</td>
+<td></td>
+<td class="xl75">-4</td>
+<td></td>
+<td class="xl75">159</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">159</td>
+<td class="xl72">Mauritania</td>
+<td class="xl73">0.520</td>
+<td></td>
+<td class="xl74">63.4</td>
+<td></td>
+<td class="xl74">8.6</td>
+<td></td>
+<td class="xl74">4.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">3,592</td>
+<td></td>
+<td class="xl75">-13</td>
+<td></td>
+<td class="xl75">159</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">161</td>
+<td class="xl72">Madagascar</td>
+<td class="xl73">0.519</td>
+<td></td>
+<td class="xl74">66.3</td>
+<td></td>
+<td class="xl74">10.6</td>
+<td></td>
+<td class="xl74">6.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,358</td>
+<td></td>
+<td class="xl75">20</td>
+<td></td>
+<td class="xl75">158</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">162</td>
+<td class="xl72">Uganda</td>
+<td class="xl73">0.516</td>
+<td></td>
+<td class="xl74">60.2</td>
+<td></td>
+<td class="xl74">11.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">6.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,658</td>
+<td></td>
+<td class="xl75">13</td>
+<td></td>
+<td class="xl75">162</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">163</td>
+<td class="xl72">Benin</td>
+<td class="xl73">0.515</td>
+<td></td>
+<td class="xl74">61.2</td>
+<td></td>
+<td class="xl74">12.6</td>
+<td></td>
+<td class="xl74">3.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">2,061</td>
+<td></td>
+<td class="xl75">2</td>
+<td></td>
+<td class="xl75">161</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl75" style="height:14.25pt">164</td>
+<td class="xl72">Senegal</td>
+<td class="xl73">0.505</td>
+<td></td>
+<td class="xl74">67.5</td>
+<td></td>
+<td class="xl74">9.7</td>
+<td></td>
+<td class="xl74">3.0</td>
+<td></td>
+<td class="xl75">2,384</td>
+<td></td>
+<td class="xl75">-2</td>
+<td></td>
+<td class="xl75">165</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">165</td>
+<td class="xl72">Comoros</td>
+<td class="xl73">0.503</td>
+<td></td>
+<td class="xl74">63.9</td>
+<td></td>
+<td class="xl74">11.2</td>
+<td></td>
+<td class="xl74">4.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,399</td>
+<td></td>
+<td class="xl75">15</td>
+<td></td>
+<td class="xl75">163</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">165</td>
+<td class="xl72">Togo</td>
+<td class="xl73">0.503</td>
+<td></td>
+<td class="xl74">60.5</td>
+<td></td>
+<td class="xl74">12.4</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">4.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,453</td>
+<td></td>
+<td class="xl75">14</td>
+<td></td>
+<td class="xl75">164</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">167</td>
+<td class="xl72">Sudan</td>
+<td class="xl73">0.502</td>
+<td></td>
+<td class="xl74">64.7</td>
+<td></td>
+<td class="xl74">7.4</td>
+<td></td>
+<td class="xl74">3.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">4,119</td>
+<td></td>
+<td class="xl75">-25</td>
+<td></td>
+<td class="xl75">165</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">168</td>
+<td class="xl72">Afghanistan</td>
+<td class="xl73">0.498</td>
+<td></td>
+<td class="xl74">64.0</td>
+<td></td>
+<td class="xl74">10.4</td>
+<td></td>
+<td class="xl74">3.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">1,824</td>
+<td></td>
+<td class="xl75">0</td>
+<td></td>
+<td class="xl75">168</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">168</td>
+<td class="xl72">Haiti</td>
+<td class="xl73">0.498</td>
+<td></td>
+<td class="xl74">63.6</td>
+<td></td>
+<td class="xl74">9.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl74">5.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,665</td>
+<td></td>
+<td class="xl75">6</td>
+<td></td>
+<td class="xl75">167</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">170</td>
+<td class="xl72">Côte d'Ivoire</td>
+<td class="xl73">0.492</td>
+<td></td>
+<td class="xl74">54.1</td>
+<td></td>
+<td class="xl74">9.0</td>
+<td></td>
+<td class="xl74">5.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">3,481</td>
+<td></td>
+<td class="xl75">-22</td>
+<td></td>
+<td class="xl75">169</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">171</td>
+<td class="xl72">Malawi</td>
+<td class="xl73">0.477</td>
+<td></td>
+<td class="xl74">63.7</td>
+<td></td>
+<td class="xl74">10.8</td>
+<td></td>
+<td class="xl74">4.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">1,064</td>
+<td></td>
+<td class="xl75">14</td>
+<td></td>
+<td class="xl75">170</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">172</td>
+<td class="xl72">Djibouti</td>
+<td class="xl73">0.476</td>
+<td></td>
+<td class="xl74">62.6</td>
+<td></td>
+<td class="xl74">6.2</td>
+<td></td>
+<td class="xl74">4.1</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">3,392</td>
+<td></td>
+<td class="xl75">-21</td>
+<td></td>
+<td class="xl75">170</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">173</td>
+<td class="xl72">Ethiopia</td>
+<td class="xl73">0.463</td>
+<td></td>
+<td class="xl74">65.9</td>
+<td></td>
+<td class="xl74">8.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">2.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,719</td>
+<td></td>
+<td class="xl75">-1</td>
+<td></td>
+<td class="xl75">173</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">174</td>
+<td class="xl72">Gambia</td>
+<td class="xl73">0.460</td>
+<td></td>
+<td class="xl74">61.4</td>
+<td></td>
+<td class="xl74">9.2</td>
+<td></td>
+<td class="xl74">3.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">1,516</td>
+<td></td>
+<td class="xl75">4</td>
+<td></td>
+<td class="xl75">173</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">175</td>
+<td class="xl72">Guinea</td>
+<td class="xl73">0.459</td>
+<td></td>
+<td class="xl74">60.6</td>
+<td></td>
+<td class="xl74">9.1</td>
+<td></td>
+<td class="xl74">2.6</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">2,067</td>
+<td></td>
+<td class="xl75">-11</td>
+<td></td>
+<td class="xl75">177</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">176</td>
+<td class="xl72">Congo (Democratic Republic of th<span style="display:none">e)</span></td>
+<td class="xl73">0.457</td>
+<td></td>
+<td class="xl74">60.0</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td></td>
+<td class="xl74">6.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">796</td>
+<td></td>
+<td class="xl75">12</td>
+<td></td>
+<td class="xl75">176</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">177</td>
+<td class="xl72">Guinea-Bissau</td>
+<td class="xl73">0.455</td>
+<td></td>
+<td class="xl74">57.8</td>
+<td></td>
+<td class="xl74">10.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl74">3.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#o">o</a></sup></td>
+<td class="xl75">1,552</td>
+<td></td>
+<td class="xl75">0</td>
+<td></td>
+<td class="xl75">175</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">178</td>
+<td class="xl72">Yemen</td>
+<td class="xl73">0.452</td>
+<td></td>
+<td class="xl74">65.2</td>
+<td></td>
+<td class="xl74">9.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">3.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#l">l</a></sup></td>
+<td class="xl75">1,239</td>
+<td></td>
+<td class="xl75">5</td>
+<td></td>
+<td class="xl75">172</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">179</td>
+<td class="xl72">Eritrea</td>
+<td class="xl73">0.440</td>
+<td></td>
+<td class="xl74">65.5</td>
+<td></td>
+<td class="xl74">5.4</td>
+<td></td>
+<td class="xl74">4.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#n">n</a></sup></td>
+<td class="xl75">1,750</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-9</td>
+<td></td>
+<td class="xl75">178</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">180</td>
+<td class="xl72">Mozambique</td>
+<td class="xl73">0.437</td>
+<td></td>
+<td class="xl74">58.9</td>
+<td></td>
+<td class="xl74">9.7</td>
+<td></td>
+<td class="xl74">3.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">1,093</td>
+<td></td>
+<td class="xl75">4</td>
+<td></td>
+<td class="xl75">179</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">181</td>
+<td class="xl72">Liberia</td>
+<td class="xl73">0.435</td>
+<td></td>
+<td class="xl74">63.0</td>
+<td></td>
+<td class="xl74">10.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">4.7</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">667</td>
+<td></td>
+<td class="xl75">9</td>
+<td></td>
+<td class="xl75">180</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">182</td>
+<td class="xl72">Mali</td>
+<td class="xl73">0.427</td>
+<td></td>
+<td class="xl74">58.5</td>
+<td></td>
+<td class="xl74">7.7</td>
+<td></td>
+<td class="xl74">2.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl75">1,953</td>
+<td></td>
+<td class="xl75">-16</td>
+<td></td>
+<td class="xl75">181</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">183</td>
+<td class="xl72">Burkina Faso</td>
+<td class="xl73">0.423</td>
+<td></td>
+<td class="xl74">60.8</td>
+<td></td>
+<td class="xl74">8.5</td>
+<td></td>
+<td class="xl74">1.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,650</td>
+<td></td>
+<td class="xl75">-7</td>
+<td></td>
+<td class="xl75">182</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">184</td>
+<td class="xl72">Sierra Leone</td>
+<td class="xl73">0.419</td>
+<td></td>
+<td class="xl74">52.2</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">3.5</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">1,240</td>
+<td></td>
+<td class="xl75">-2</td>
+<td></td>
+<td class="xl75">184</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">185</td>
+<td class="xl72">Burundi</td>
+<td class="xl73">0.417</td>
+<td></td>
+<td class="xl74">57.9</td>
+<td></td>
+<td class="xl74">11.7</td>
+<td></td>
+<td class="xl74">3.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">702</td>
+<td></td>
+<td class="xl75">4</td>
+<td></td>
+<td class="xl75">183</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">186</td>
+<td class="xl72">Chad</td>
+<td class="xl73">0.404</td>
+<td></td>
+<td class="xl74">53.2</td>
+<td></td>
+<td class="xl74">8.0</td>
+<td></td>
+<td class="xl74">2.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl75">1,750</td>
+<td></td>
+<td class="xl75">-15</td>
+<td></td>
+<td class="xl75">185</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">187</td>
+<td class="xl72">South Sudan</td>
+<td class="xl73">0.388</td>
+<td></td>
+<td class="xl74">57.3</td>
+<td></td>
+<td class="xl74">4.9</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#q">q</a></sup></td>
+<td class="xl74">4.8</td>
+<td></td>
+<td class="xl75">963</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl75">-1</td>
+<td></td>
+<td class="xl75">186</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl75" style="height:16.5pt">188</td>
+<td class="xl72">Central African Republic</td>
+<td class="xl73">0.367</td>
+<td></td>
+<td class="xl74">52.9</td>
+<td></td>
+<td class="xl74">7.2</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#f">f</a></sup></td>
+<td class="xl74">4.3</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">663</td>
+<td></td>
+<td class="xl75">3</td>
+<td></td>
+<td class="xl75">187</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl75" style="height:16.5pt">189</td>
+<td class="xl72">Niger</td>
+<td class="xl73">0.354</td>
+<td></td>
+<td class="xl74">60.4</td>
+<td></td>
+<td class="xl74">5.4</td>
+<td></td>
+<td class="xl74">2.0</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#j">j</a></sup></td>
+<td class="xl75">906</td>
+<td></td>
+<td class="xl75">-2</td>
+<td></td>
+<td class="xl75">188</td>
+<td></td>
+<td colspan="15" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-odd"><td height="20" class="xl75" style="height:15.0pt"></td>
+<td colspan="15" class="xl93">OTHER COUNTRIES OR TERRITORIES</td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl76" style="height:14.25pt">..</td>
+<td class="xl72">Korea (Democratic People's Rep. <span style="display:none">of)</span></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl74">71.9</td>
+<td></td>
+<td class="xl74">12.0</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl76" style="height:14.25pt">..</td>
+<td class="xl72">Monaco</td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl76" style="height:16.5pt">..</td>
+<td class="xl72">Nauru</td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl74">10.3</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl75">18,573</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" class="xl76" style="height:14.25pt">..</td>
+<td class="xl72">San Marino</td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl74">15.1</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" class="xl76" style="height:14.25pt">..</td>
+<td class="xl72">Somalia</td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl74">56.7</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-odd"><td height="22" class="xl76" style="height:16.5pt">..</td>
+<td class="xl72">Tuvalu</td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl75">5,888</td>
+<td class="xl71"><sup><a href="http://hdr.undp.org/en/composite/HDI#k">k</a></sup></td>
+<td class="xl76">..</td>
+<td></td>
+<td class="xl76">..</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="22" style="height:16.5pt" class="row-even"><td height="22" class="xl76" style="height:16.5pt"></td>
+<td class="xl72"></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl75"></td>
+<td class="xl71"><sup></sup></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+</tr><tr height="20" style="height:15.0pt" class="row-odd"><td height="20" style="height:15.0pt"></td>
+<td class="xl77">Human development groups</td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Very high human development</td>
+<td class="xl73">0.894</td>
+<td></td>
+<td class="xl74">79.5</td>
+<td></td>
+<td class="xl74">16.4</td>
+<td></td>
+<td class="xl74">12.2</td>
+<td></td>
+<td class="xl75">40,041</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">High human development</td>
+<td class="xl73">0.757</td>
+<td></td>
+<td class="xl74">76.0</td>
+<td></td>
+<td class="xl74">14.1</td>
+<td></td>
+<td class="xl74">8.2</td>
+<td></td>
+<td class="xl75">14,999</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Medium human development</td>
+<td class="xl73">0.645</td>
+<td></td>
+<td class="xl74">69.1</td>
+<td></td>
+<td class="xl74">12.0</td>
+<td></td>
+<td class="xl74">6.7</td>
+<td></td>
+<td class="xl75">6,849</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Low human development</td>
+<td class="xl73">0.504</td>
+<td></td>
+<td class="xl74">60.8</td>
+<td></td>
+<td class="xl74">9.4</td>
+<td></td>
+<td class="xl74">4.7</td>
+<td></td>
+<td class="xl75">2,521</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72"></td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-odd"><td height="20" style="height:15.0pt"></td>
+<td class="xl77">Developing countries</td>
+<td class="xl73">0.681</td>
+<td></td>
+<td class="xl74">70.7</td>
+<td></td>
+<td class="xl74">12.2</td>
+<td></td>
+<td class="xl74">7.3</td>
+<td></td>
+<td class="xl75">10,055</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72"></td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-odd"><td height="20" style="height:15.0pt"></td>
+<td class="xl77">Regions</td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Arab States</td>
+<td class="xl73">0.699</td>
+<td></td>
+<td class="xl74">71.5</td>
+<td></td>
+<td class="xl74">11.9</td>
+<td></td>
+<td class="xl74">7.0</td>
+<td></td>
+<td class="xl75">15,837</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">East Asia and the Pacific</td>
+<td class="xl73">0.733</td>
+<td></td>
+<td class="xl74">74.7</td>
+<td></td>
+<td class="xl74">13.3</td>
+<td></td>
+<td class="xl74">7.9</td>
+<td></td>
+<td class="xl75">13,688</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Europe and Central Asia</td>
+<td class="xl73">0.771</td>
+<td></td>
+<td class="xl74">73.4</td>
+<td></td>
+<td class="xl74">14.1</td>
+<td></td>
+<td class="xl74">10.3</td>
+<td></td>
+<td class="xl75">15,331</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Latin America and the Caribbean</td>
+<td class="xl73">0.758</td>
+<td></td>
+<td class="xl74">75.7</td>
+<td></td>
+<td class="xl74">14.4</td>
+<td></td>
+<td class="xl74">8.5</td>
+<td></td>
+<td class="xl75">13,671</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">South Asia</td>
+<td class="xl73">0.638</td>
+<td></td>
+<td class="xl74">69.3</td>
+<td></td>
+<td class="xl74">11.9</td>
+<td></td>
+<td class="xl74">6.4</td>
+<td></td>
+<td class="xl75">6,473</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72">Sub-Saharan Africa</td>
+<td class="xl73">0.537</td>
+<td></td>
+<td class="xl74">60.7</td>
+<td></td>
+<td class="xl74">10.1</td>
+<td></td>
+<td class="xl74">5.6</td>
+<td></td>
+<td class="xl75">3,399</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-even"><td height="19" style="height:14.25pt"></td>
+<td class="xl72"></td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-odd"><td height="20" style="height:15.0pt"></td>
+<td class="xl90">Least developed countries</td>
+<td class="xl73">0.524</td>
+<td></td>
+<td class="xl74">64.8</td>
+<td></td>
+<td class="xl74">9.8</td>
+<td></td>
+<td class="xl74">4.7</td>
+<td></td>
+<td class="xl75">2,506</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-even"><td height="20" style="height:15.0pt"></td>
+<td class="xl90">Small island developing states</td>
+<td class="xl73">0.722</td>
+<td></td>
+<td class="xl74">72.3</td>
+<td></td>
+<td class="xl74">12.1</td>
+<td></td>
+<td class="xl74">8.6</td>
+<td></td>
+<td class="xl75">15,113</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-odd"><td height="20" style="height:15.0pt"></td>
+<td class="xl90"></td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-even"><td height="20" style="height:15.0pt"></td>
+<td class="xl90">Organisation for Economic Co-operation and Development</td>
+<td class="xl73">0.895</td>
+<td></td>
+<td class="xl74">80.6</td>
+<td></td>
+<td class="xl74">16.2</td>
+<td></td>
+<td class="xl74">12.0</td>
+<td></td>
+<td class="xl75">39,595</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72"></td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="20" style="height:15.0pt" class="row-even"><td height="20" style="height:15.0pt"></td>
+<td class="xl77">World</td>
+<td class="xl73">0.728</td>
+<td></td>
+<td class="xl74">72.2</td>
+<td></td>
+<td class="xl74">12.7</td>
+<td></td>
+<td class="xl74">8.4</td>
+<td></td>
+<td class="xl75">15,295</td>
+<td></td>
+<td class="xl76">—</td>
+<td></td>
+<td class="xl76">—</td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr><tr height="19" style="height:14.25pt" class="row-odd"><td height="19" style="height:14.25pt"></td>
+<td class="xl72"></td>
+<td class="xl73"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl74"></td>
+<td></td>
+<td class="xl75"></td>
+<td></td>
+<td class="xl76"></td>
+<td></td>
+<td class="xl76"></td>
+<td colspan="16" style="mso-ignore:colspan"></td>
+</tr></tbody></table><p></p>
+<p><strong>Notes</strong><br><a name="a" id="a"></a>a. Data refer to 2017 or the most recent year available.<br><a name="b" id="b"></a>b. In calculating the HDI value, expected years of schooling is capped at 18 years.<br><a name="c" id="c"></a>c. Based on data from OECD (2017a).<br><a name="d" id="d"></a>d. Based on data from the national statistical office.<br><a name="e" id="e"></a>e. In calculating the HDI value, GNI per capita is capped at $75,000.<br><a name="f" id="f"></a>f. Updated by HDRO based on data from UNESCO Institute for Statistics (2018).<br><a name="g" id="g"></a>g. Value from UNDESA (2011).<br><a name="h" id="h"></a>h. Imputed mean years of schooling for Austria.<br><a name="i" id="i"></a>i. Estimated using the purchasing power parity (PPP) rate and projected growth rate of Switzerland.<br><a name="j" id="j"></a>j. Based on Barro and Lee (2016).<br><a name="k" id="k"></a>k. HDRO estimate based on data from World Bank (2018b) and United Nations Statistics Division (2018b).<br><a name="l" id="l"></a>l. Updated by HDRO using Barro and Lee (2016) estimates.<br><a name="m" id="m"></a>m. Estimated using the PPP rate and projected growth rate of Spain.<br><a name="n" id="n"></a>n. Based on cross-country regression.<br><a name="o" id="o"></a>o. Updated by HDRO based on data from United Nations Children's Fund (UNICEF) Multiple Indicator Cluster Surveys for 2006-2017.<br><a name="p" id="p"></a>p. Based on a cross-country regression and the projected growth rate from UNECLAC (2018).<br><a name="q" id="q"></a>q. Updated by HDRO based on data from ICF Macro Demographic and Health Surveys for 2006-2017.<br><a name="r" id="r"></a>r. Updated by HDRO based on Syrian Center for Policy Research (2017).<br><a name="s" id="s"></a>s. HDRO estimate based on data from World Bank (2018b), United Nations Statistics Division (2018b) and projected growth rates from UNESCWA (2018).</p>
+<p></p>
+<p><strong>Definitions</strong><br><b>Human Development Index (HDI):</b> A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at <a href="http://hdr.undp.org/sites/default/files/hdr2018_technical_notes.pdf">http://hdr.undp.org/sites/default/files/hdr2018_technical_notes.pdf</a> for details on how the HDI is calculated.<br><b>Life expectancy at birth:</b> Number of years a newborn infant could expect to live if prevailing patterns of age-specific mortality rates at the time of birth stay the same throughout the infant’s life.<br><b>Expected years of schooling:</b> Number of years of schooling that a child of school entrance age can expect to receive if prevailing patterns of age-specific enrolment rates persist throughout the child’s life.<br><b>Mean years of schooling:</b> Average number of years of education received by people ages 25 and older, converted from education attainment levels using official durations of each level.<br><b>Gross national income (GNI) per capita:</b> Aggregate income of an economy generated by its production and its ownership of factors of production, less the incomes paid for the use of factors of production owned by the rest of the world, converted to international dollars using PPP rates, divided by midyear population.<br><b>GNI per capita rank minus HDI rank:</b> Difference in ranking by GNI per capita and by HDI value. A negative value means that the country is better ranked by GNI than by HDI value.<br><b>HDI rank for 2016:</b> Ranking by HDI value for 2016, which was calculated using the same most recently revised data available in 2018 that were used to calculate HDI values for 2017.
+</p>
+<p></p>
+<p><strong>Main data sources</strong><br>
+Columns 1 and 7: HDRO calculations based on data from UNDESA (2017a), UNESCO Institute for Statistics (2018), United Nations Statistics Division (2018b), World Bank (2018b), Barro and Lee (2016) and IMF (2018).<br>
+Column 2: UNDESA (2017a).<br>
+Column 3: UNESCO Institute for Statistics (2018), ICF Macro Demographic and Health Surveys, UNICEF Multiple Indicator Cluster Surveys and OECD (2017a).<br>
+Column 4: UNESCO Institute for Statistics (2018), Barro and Lee (2016), ICF Macro Demographic and Health Surveys, UNICEF Multiple Indicator Cluster Surveys and OECD (2017a).<br>
+Column 5: World Bank (2018b), IMF (2018) and United Nations Statistics Division (2018b).<br>
+Column 6: Calculated based on data in columns 1 and 5.</p>
+<script src="./_ Human Development Reports_files/d3.v3.min.js.descarga"></script><script src="./_ Human Development Reports_files/jquery-1.10.2.js.descarga"></script><script src="./_ Human Development Reports_files/jquery.stickytableheaders.min.js.descarga"></script><script>
+<!--//--><![CDATA[// ><!--
+
+var tbody = d3.select('tbody');
+var rows = tbody.selectAll('tr')
+rows.attr("class", function(d, i){ if (i++ % 2 === 0){return 'row-even'}else {return 'row-odd'}});
+$('table').stickyTableHeaders();
+
+//--><!]]>
+</script> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<footer class="footer container">
+<div class="footer-top">
+</div>
+<div class="footer-bottom">
+<div class="region region-footer-bottom">
+<section id="block-menu-menu-secondary" class="block block-menu clearfix">
+<ul class="menu nav"><li class="first leaf"><a href="http://hdr.undp.org/en">Home</a></li>
+<li class="leaf"><a href="http://hdr.undp.org/en/contact" title="">Contact us</a></li>
+<li class="leaf"><a href="http://hdr.undp.org/en/user/login">Sign in</a></li>
+<li class="leaf"><a href="http://hdr.undp.org/en/content/copyright-and-terms-use">Terms of use</a></li>
+<li class="last leaf"><a href="https://visitor.r20.constantcontact.com/manage/optin?v=001uHIazSht99_SmsMvQ6fh7VDbVfe0kU0qRgc7Dsix0RqRJpTPO2HMS2-xOnzqaQUSgYQzHF_D8wHKMsLKYD3KcnbIectMQqQLXzaVY0akbmuV_r4MiP7uGavRZFAXupF30IdsLx84iMRaJRXR9tgcn6ZPJbsX6P6kMzkH1ikSOF8%3D">Subscribe to HDRO Newsletter</a></li>
+</ul>
+</section> 
+<section id="block-search-form--2" class="block block-search clearfix">
+<form class="form-search content-search" action="http://hdr.undp.org/en/composite/HDI" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="input-append"><input title="Enter the terms you wish to search for." class="search-query span2 form-text" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128"><button type="submit" class="btn"><i class="icon-search"></i><span class="element-invisible">Search</span></button></div><button class="element-invisible btn btn-primary form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+<input type="hidden" name="form_build_id" value="form-mR1i4LWHY6LQ0J_qzzmWxhA-YdvVv8d3N8mLHFV7FuI">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form>
+</section> 
+<section id="block-block-23" class="block block-block clearfix">
+<p><br></p>
+<p style="text-align:center;font-size:28px;">
+<span style="width:33%;align:center;"><a href="https://www.facebook.com/HumanDevelopmentReport"><img src="./_ Human Development Reports_files/fb_icon.png" width="40px" height="40px"></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width:33%;align:center;"><a href="https://twitter.com/HDRUNDP"><img src="./_ Human Development Reports_files/twitter_icon.png" width="40px" height="40px"></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width:33%;align:center;"><a href="https://www.youtube.com/channel/UC49v448-WnuNWJs4xmzT-QA"><img src="./_ Human Development Reports_files/youtube_icon.png" width="40px" height="40px"></a></span>
+</p>
+</section> 
+</div>
+</div>
+</footer>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"fe270b12c8","applicationID":"3267662","transactionName":"ZAAHMkVWD0IHVkZYWl1KMBReGE5YCFFXSRtDDRU=","queueTime":0,"applicationTime":15,"atts":"SEcERA1MHEw=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>
